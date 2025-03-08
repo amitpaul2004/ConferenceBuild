@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>TESTING</title>
+	<title>Countdown Timer</title>
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />                               <!--css(scroling effect)-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">       <!--css-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>                   <!--JavaScript library -->
@@ -72,7 +73,7 @@
 			<img class="image" src="/img/tem.jpg">
 		</div>
 	</div>
-</div>
+</div>   
 
 <!--- Jumbotron -->
 <div class="container-fluid" data-aos="fade-up"
@@ -97,14 +98,28 @@
 		data-aos-duration="1000">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h1 class="display-4">COMMENT</h1>
+			<h1 class="display-4">ANY COMMENT</h1>
 		</div>
 		<hr>
 		<div class="col-12">
-			<p class="lead">DESCRIPTION</p>
+			<div class="countdown-container">
+			<h1>CONFERENCE WILL START IN</h1>
+			<div class="countdown">
+			<div class="time" id="days">00</div>
+			<div class="label">DAYS</div>
+			<div class="time" id="hours">00</div>
+			<div class="label">HOURS</div>
+			<div class="time" id="minutes">00</div>
+			<div class="label">MINUTES</div>
+			<div class="time" id="seconds">00</div>
+			<div class="label">SECONDS</div>
+			</div>
+			</div>
+			<script src="script.js"></script>
 		</div>
 	</div>
 </div>
+
 
 <!--- Three Column Section -->
 <div class="container-fluid padding"data-aos="fade-up"
@@ -124,6 +139,7 @@
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<img src="/img/book.jpg" alt="Yellow Cover Rectangular Notebook" />
+			<h3>TEST3</h3>
 			<p>DESCRIPTION</p>
 		</div>
 	</div>
