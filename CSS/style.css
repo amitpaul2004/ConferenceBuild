@@ -38,6 +38,49 @@ html, body{
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.ribbon {
+  position: fixed; /* Fixed position to stay at the top */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 40px; /* Set a height for the ribbon */
+   background: linear-gradient(90deg, #ff007f, #ff7f00); /* Gradient color */
+  animation: moveRibbon 5s linear infinite; /* Animation */
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Padding for the ribbon */
+  overflow: hidden; /* Hide overflow */
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.moving-word {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 24px; /* Font size of the text */
+  animation: moveWord 22s linear infinite; /* Adjusted speed (increased duration) */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+}
+
+@keyframes moveWord {
+  0% {
+      left: 100%; /* Start off-screen to the right */
+  }
+  100% {
+      left: -100%; /* Move off-screen to the left */
+  }
+}
+
+.content {
+  padding: 100px 20px; /* Padding for the content below the ribbon */
+}
+
 .btn-primary {     /* all button styles after clicking*/
   background-color: #6648b1;
   border: 1px solid #564d7c;
