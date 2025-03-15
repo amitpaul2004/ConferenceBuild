@@ -1,0 +1,41 @@
+
+@media only screen and (max-width:767px) {
+    .raorba {
+        padding: 0 15px
+    }
+
+    .sub-heading img {
+        width: 40px
+    }
+
+    .easy-chair h3 {
+        font-size: 25px
+    }
+
+    .sub-heading h2 {
+        font-size: 26px
+    }
+
+    .easy-chair h3 {
+        font-size: 19px
+    }
+
+    .confrence {
+        width: 100%
+    }
+
+    .count-wrap h1 {
+        text-align: center
+    }
+
+    .start-count {
+        justify-content: space-evenly
+    }
+
+    .conf-img {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 80%
+    }
+}

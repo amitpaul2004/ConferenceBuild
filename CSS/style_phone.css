@@ -1,0 +1,36 @@
+
+@media only screen and (max-width:500px) {
+    .raorba-logo {
+        width: 175px;
+    }
+
+    .bvb-logo {
+        width: 100%;
+        margin: 25px 0;
+        text-align: center
+    }
+
+    .raorba {
+        text-align: center
+    }
+
+    .bvb-logo img {
+        width: 40%
+    }
+
+    .confrence {
+        padding: 40px 0
+    }
+
+    .count-wrap h1 {
+        font-size: 22px
+    }
+
+    .counts span {
+        font-size: 44px
+    }
+
+    .counts p {
+        font-size: 12px
+    }
+}

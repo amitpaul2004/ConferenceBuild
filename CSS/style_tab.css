@@ -1,0 +1,112 @@
+
+@media only screen and (min-width:1600px) {
+
+    .intro h1 span,
+    .intro h1 strong {
+        font-weight: 800
+    }
+
+    .started p b {
+        font-weight: 900
+    }
+
+    a.btn-started {
+        font-size: 21px
+    }
+
+    .count-wrap h1 {
+        font-size: 37px
+    }
+
+    .sub-heading {
+        border-bottom: 1px solid #55aeee
+    }
+
+    .sub-heading h2 {
+        font-size: 40px;
+        font-weight: 700
+    }
+
+    .counts span {
+        font-size: 95px;
+        line-height: normal
+    }
+
+    .confrence {
+        padding: 115px 0
+    }
+
+    .com-pad {
+        padding: 75px 0
+    }
+
+    .themes ul li:before {
+        top: 10px
+    }
+
+    section.com-pad p {
+        font-size: 20px
+    }
+
+    .committee strong,
+    section.themes div ul li span {
+        font-size: 21px
+    }
+
+    .bullet:before {
+        background-size: 42px;
+        top: 1px;
+        left: -7px;
+        width: 42px;
+        height: 25px
+    }
+
+    .bullet {
+        padding-left: 45px
+    }
+
+    table.table.tbl-regs {
+        font-size: 20px
+    }
+
+    .easy-chair span img {
+        width: 200px;
+    }
+}
+
+
+@media only screen and (min-width:992px) {
+    div.mob-menu {
+        display: none
+    }
+}
+
+@media only screen and (max-width:1198px) {
+    .nav-content {
+        justify-content: center
+    }
+
+    .intro h1 {
+        font-size: 35px
+    }
+
+    .count-wrap h1 {
+        font-size: 30px
+    }
+
+    .counts span {
+        font-size: 74px
+    }
+
+    .counts p {
+        font-size: 16px
+    }
+
+    .sub-heading img {
+        width: 50px
+    }
+
+    .easy-chair {
+        padding-left: 60px
+    }
+}
